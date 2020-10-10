@@ -4,6 +4,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from demo import Ui_MainWindow
+from utils import *
 
 class MyWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
